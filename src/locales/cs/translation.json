@@ -1,0 +1,58 @@
+{
+  "header": {
+    "title": "WireGuard Generátor Konfigurace",
+    "subtitle": "Zcela bezpečný lokální JS generátor klíčů (bez backendu)."
+  },
+  "actions": {
+    "import": "Import",
+    "export": "Export",
+    "addClient": "+ Přidat klienta",
+    "regenerateKeys": "Nové serverové klíče",
+    "remove": "Odstranit",
+    "download": "Stáhnout",
+    "copy": "Kopírovat",
+    "showQr": "Zobrazit QR",
+    "downloadPng": "Stáhnout QR (.png)",
+    "downloadZip": "Stáhnout vše (ZIP)",
+    "close": "Zavřít"
+  },
+  "server": {
+    "title": "Stav Serveru",
+    "publicKey": "Veřejný klíč",
+    "privateKey": "Privátní klíč",
+    "listenPort": "Listen Port",
+    "subnet": "Server subnet",
+    "endpoint": "Endpoint (IP / Doména)",
+    "endpointPlaceholder": "vpn.mojedomena.cz",
+    "globalAllowedIps": "Globální AllowedIPs",
+    "globalKeepalive": "Globální Keepalive",
+    "globalDns": "Globální DNS",
+    "globalMtu": "Globální MTU",
+    "enableDns": "Použít Globální DNS",
+    "enableMtu": "Použít Globální MTU",
+    "enableNat": "Použít NAT (PostUp/Down)",
+    "natInterfacePlaceholder": "eth0"
+  },
+  "client": {
+    "clientIp": "Client IP",
+    "privateKey": "Privátní klíč",
+    "allowedIps": "Routed AllowedIPs",
+    "keepalive": "Keepalive",
+    "dns": "DNS",
+    "mtu": "MTU"
+  },
+  "results": {
+    "title": "Výsledné konfigurace",
+    "serverFallback": "wg0.conf (Server)",
+    "emptyState": "Zatím žádní klienti. Přidej klienta pro vygenerování jeho konfigurace.",
+    "showingQr": "QR kód pro {{name}}"
+  },
+  "alerts": {
+    "exportError": "Chyba při exportu: ",
+    "importError": "Chyba načítání dat. Zkontrolujte prosím JSON soubor.",
+    "copySuccess": "Zkopírováno!"
+  },
+  "footer": {
+    "createdBy": "Vytvořil"
+  }
+}

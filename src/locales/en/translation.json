@@ -1,0 +1,58 @@
+{
+  "header": {
+    "title": "WireGuard Client Configurations",
+    "subtitle": "Fully secure generator running purely in the browser. Keys stay securely mapped onto your system."
+  },
+  "actions": {
+    "import": "Import Config",
+    "export": "Export Config",
+    "addClient": "+ Add Peer (Client)",
+    "regenerateKeys": "Regenerate Server Keys",
+    "remove": "Remove",
+    "download": "Download",
+    "copy": "Copy",
+    "showQr": "Show QR Code",
+    "downloadPng": "Download QR (.png)",
+    "downloadZip": "Download All (ZIP)",
+    "close": "Close"
+  },
+  "server": {
+    "title": "Server Interface",
+    "publicKey": "Public Key",
+    "privateKey": "Private Key",
+    "listenPort": "Listen Port",
+    "subnet": "Server Subnet",
+    "endpoint": "Endpoint (Domain/IP)",
+    "endpointPlaceholder": "vpn.example.com",
+    "globalAllowedIps": "Global AllowedIPs",
+    "globalKeepalive": "Global Keepalive",
+    "globalDns": "Global DNS",
+    "globalMtu": "Global MTU",
+    "enableDns": "Use DNS Payload",
+    "enableMtu": "Use MTU Override",
+    "enableNat": "Enable NAT Forwarding (PostUp/Down)",
+    "natInterfacePlaceholder": "eth0"
+  },
+  "client": {
+    "clientIp": "Client IP Address",
+    "privateKey": "Private Key",
+    "allowedIps": "Routed AllowedIPs",
+    "keepalive": "PersistentKeepalive",
+    "dns": "DNS Settings",
+    "mtu": "MTU"
+  },
+  "results": {
+    "title": "Final Output Configurations",
+    "serverFallback": "wg0.conf (Server)",
+    "emptyState": "No peers configured yet. Add a client to generate configurations.",
+    "showingQr": "QR config for {{name}}"
+  },
+  "alerts": {
+    "exportError": "Failed to serialize context space.",
+    "importError": "Failed to restore context space from schema. Is the schema malformed?",
+    "copySuccess": "Configuration profile copied to clipboard!"
+  },
+  "footer": {
+    "createdBy": "Created by"
+  }
+}
