@@ -2,6 +2,8 @@
 
 A fast, modern, and completely secure client-side application for generating WireGuard server and client configurations.
 
+🌍 **Live Demo:** [https://jurakzdenek.github.io/wireguard-config-generator/](https://jurakzdenek.github.io/wireguard-config-generator/)
+
 ## 🚀 Features
 
 - **100% Client-Side**: No backend required! Everything is generated locally in your browser.
